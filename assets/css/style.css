@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo {
+    height: 50px;
+}
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333333;
+}
+.hero {
+    background: url('../images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+}
+.hero-banner {
+    max-width: 100%;
+    height: auto;
+}
+.about, .products, .contact {
+    padding: 3rem 2rem;
+}
+.image-banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 6px;
+}
+.products .product-grid {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.product-card-img {
+    flex: 1 1 48%;
+    min-width: 280px;
+}
+.product-card-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.contact a {
+    color: #0077cc;
+    text-decoration: none;
+}
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #e0e0e0;
+}
+footer .socials a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+.social-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    border-radius: 4px;
+    object-fit: contain;
+}
